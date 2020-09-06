@@ -2,13 +2,11 @@
 const uuid = require('uuid');
 const logger = require('../utils/logger');
 const assessmentStore = require('../models/assessment-store.js');
-const accounts = require ('./accounts.js');
 
 
 const dashboard = {
   index(request, response) {
     logger.info("dashboard rendering");
-    const loggedInUser = accounts.getCurrentUser(request)
     const viewData = {
       title: 'Dashboard',
       assessments: assessmentStore.getAllAssessments()
@@ -27,7 +25,6 @@ const dashboard = {
   addAssessmentlist(request, response) {
     const newAssessmentList = {
       id: uuid.v1(),
-      userid: loggedInUser.id,
       memberName: request.body.memberName,
       assessments: [],
     };
