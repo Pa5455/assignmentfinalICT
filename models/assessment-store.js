@@ -37,12 +37,10 @@ const assessmentStore = {
   },
 
   removeAssessmentlist(id) {
-    const
-    _.remove(this.assessmentCollection, { id: id });
+    const assessmentlist = this.getAssessmentlist(id);
+    this.store.remove(this.collection, assessmentlist);
+    this.store.save();
   },
-
-
 };
-
 module.exports = assessmentStore;
 
