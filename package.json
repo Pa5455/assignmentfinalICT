@@ -1,7 +1,7 @@
 {
-  "name": "playlist-1",
+  "name": "Assignment 1",
   "version": "0.0.1",
-  "description": "Project at the end of Playlist-1 lab",
+  "description": "Assigment for summer ICT skills WIT 2020",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"

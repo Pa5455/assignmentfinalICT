@@ -1,4 +1,4 @@
-Welcome to the Playlist 1
+Welcome to the Gym 1
 =========================
 
-Version 1 of the Playlist application
+Version 1 of the Gym application
