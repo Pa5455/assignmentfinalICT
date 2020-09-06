@@ -26,7 +26,6 @@ const dashboard = {
     const newAssessmentList = {
       id: uuid.v1(),
       memberName: request.body.memberName,
-      assessments: [],
     };
     assessmentStore.addAssessmentlist(newAssessmentList);
     response.redirect('/dashboard')
