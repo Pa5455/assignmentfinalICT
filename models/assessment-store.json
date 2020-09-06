@@ -1,0 +1,122 @@
+{
+  "assessmentCollection": [
+    {
+      "id": "01",
+      "memberName": "John",
+      "memberHeight": 180,
+      "memberStartWeight": "100",
+      "BMI": "20",
+      "assessmentCount": "3",
+      "assessment": [
+        {
+          "id": "04",
+          "weight": 150,
+          "chest": "42",
+          "thigh": "20",
+          "upperArm": "15",
+          "waist": "36",
+          "hips": "18"
+        },
+        {
+          "id": "05",
+          "weight": "150",
+          "chest": "42",
+          "thigh": "20",
+          "upperArm": "15",
+          "waist": "36",
+          "hips": "18"
+        },
+        {
+          "id": "06",
+          "weight": "150",
+          "chest": "42",
+          "thigh": "20",
+          "upperArm": "15",
+          "waist": "36",
+          "hips": "18"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "memberName": "Mike",
+      "memberHeight": 180,
+      "memberStartWeight": "100",
+      "BMI": "28",
+      "assessmentCount": "3",
+      "assessment": [
+        {
+          "id": "07",
+          "weight": "120",
+          "chest": "40",
+          "thigh": "18",
+          "upperArm": "12",
+          "waist": "32",
+          "hips": "12"
+        },
+        {
+          "id": "08",
+          "weight": "100",
+          "chest": "44",
+          "thigh": "22",
+          "upperArm": "12",
+          "waist": "30",
+          "hips": "16"
+        },
+        {
+          "id": "09",
+          "weight": "90",
+          "chest": "39",
+          "thigh": "18",
+          "upperArm": "12",
+          "waist": "34",
+          "hips": "16"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "memberName": "Bob",
+      "memberHeight": 180,
+      "memberStartWeight": "100",
+      "BMI": "25",
+      "assessmentCount": "3",
+      "assessment": [
+        {
+          "id": "10",
+          "weight": "150",
+          "chest": "42",
+          "thigh": "20",
+          "upperArm": "15",
+          "waist": "36",
+          "hips": "18"
+        },
+        {
+          "id": "11",
+          "weight": "150",
+          "chest": "42",
+          "thigh": "20",
+          "upperArm": "15",
+          "waist": "36",
+          "hips": "18"
+        },
+        {
+          "id": "12",
+          "weight": "150",
+          "chest": "42",
+          "thigh": "20",
+          "upperArm": "15",
+          "waist": "36",
+          "hips": "18"
+        }
+      ]
+    }
+  ]
+}
+
+
+
+
+
+
+

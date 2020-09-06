@@ -1,0 +1,14 @@
+{{#each assessments}}
+  <section class="ui segment">
+    <h2 class="ui header">
+      {{memberName}}
+    </h2>
+    <p> No of Assessments: {{assessmentCount}} </p>
+    <a href="/assessmentlist/{{id}}" class="ui icon button">
+      <i class="icon folder open"></i>
+    </a>
+    <a href="/dashboard/deleteassessmentlist/{{id}}" class="ui icon button">
+      <i class="icon trash"></i>
+    </a>
+  </section>
+{{/each}}
