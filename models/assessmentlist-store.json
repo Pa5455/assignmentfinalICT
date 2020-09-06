@@ -1,19 +1,5 @@
 {
   "assessmentCollection": [
-    {
-      "id": "4eae5f90-f072-11ea-94bb-49da4c5f233d",
-      "memberName": "",
-      "assessments": [
-        {
-          "id": "f5c41220-f07c-11ea-8478-c568cefd2349",
-          "weight": "",
-          "chest": "",
-          "thigh": "",
-          "upperArm": "",
-          "waist": "",
-          "hips": ""
-        }
-      ]
-    }
+   
   ]
 }
