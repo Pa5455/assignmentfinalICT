@@ -1,6 +1,6 @@
 
 //taken form lab playlist 4 set up This will enable new users to sign up and existing users to log in. It makes use of
-//the views introduced in the last step
+//the views introduced after intererting the login and sign up items ect
 //the user-store module
 //the cookie mechanism
 //to create and manage user interaction with the application.

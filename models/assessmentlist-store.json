@@ -3,6 +3,21 @@
     {
       "id": "4eae5f90-f072-11ea-94bb-49da4c5f233d",
       "memberName": "",
+      "assessments": [
+        {
+          "id": "8f2f3650-f074-11ea-869d-af5c5c6e5eb3",
+          "weight": "50",
+          "chest": "100",
+          "thigh": "50",
+          "upperArm": "50",
+          "waist": "50",
+          "hips": "60"
+        }
+      ]
+    },
+    {
+      "id": "9b7881a0-f074-11ea-869d-af5c5c6e5eb3",
+      "memberName": "",
       "assessments": []
     }
   ]
