@@ -1,8 +1,8 @@
 "use strict";
-
+const uuid = require('uuid');
 const logger = require('../utils/logger');
 const assessmentStore = require('../models/assessment-store.js');
-const uuid = require('uuid');
+
 
 const dashboard = {
   index(request, response) {

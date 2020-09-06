@@ -1,22 +1,39 @@
-<section class="ui segment">
-  <div class="ui two small statistics">
-    <div class="ui statistic">
-      <div class="value">
-        <i class="user icon"></i>
-      </div>
-      <div class="label">
-        Name:
-        {{assessmentlist.memberName}}
-      </div>
-    </div>
-    <div class="ui statistic">
-      <div class="value">
-        <i class="heartbeat icon"></i>
-      </div>
-      <div class="label">
-        BMI
-        {{assessmentlist.BMI}}
-      </div>
-    </div>
-  </div>
-</section>
+<table class = "ui table">
+  <thead>
+  <tr>
+    <th>Weight</th>
+    <th>Chest</th>
+    <th>Thigh</th>
+    <th>UpperArm</th>
+    <th>Waist</th>
+    <th>Hips</th>
+  </tr>
+  </thead>
+  <tbody>
+  {{#each assessmentlist.assessment}}
+    <tr>
+      <td>
+        {{weight}}
+      </td>
+      <td>
+        {{chest}}
+      </td>
+      <td>
+        {{thigh}}
+      </td>
+      <td>
+        {{upperArm}}
+      </td>
+      <td>
+        {{waist}}
+      </td>
+      <td>
+        {{hips}}
+      </td>
+      <td>
+        <a href="/assessmentlist/{{../assessmentlist.id}}/deleteassessment/{{id}}" class="ui icon button"><i class="icon trash"></i></a>
+      </td>
+    </tr>
+  {{/each}}
+  </tbody>
+</table>

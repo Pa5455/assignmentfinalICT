@@ -20,7 +20,7 @@ const assessmentStore = {
     _.remove(assessmentlist.assessment, { id: assessmentId });
   },
 
-  addAssessments(id, assessment) {
+  addAssessment(id,assessment) {
     const assessmentlist = this.getAssessmentlist(id);
     assessmentlist.assessment.push(assessment);
   },
