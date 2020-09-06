@@ -8,7 +8,6 @@
       "gender": "male",
       "address": "home",
       "startingweight": "100",
-      
       "id": "3ad52697-6d98-4d80-8273-084de55a86c0"
     },
     {
@@ -20,7 +19,17 @@
       "address": "home",
       "startingweight": "100",
       "id": "2b6f0989-7b7f-4a38-ad26-aa06b922d751"
+    },
+    {
+      "firstName": "Patrick",
+      "lastName": "Curran",
+      "gender": "Male",
+      "email": "patrickcurran48@hotmail.com",
+      "address": "Deerpark",
+      "startingWeight": "100",
+      "heght": "180",
+      "password": "secret",
+      "id": "8e1ddea0-f07a-11ea-944d-fbaf27e8d651"
     }
-  
   ]
 }
