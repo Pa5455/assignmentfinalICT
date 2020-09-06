@@ -3,17 +3,7 @@
     {
       "id": "4eae5f90-f072-11ea-94bb-49da4c5f233d",
       "memberName": "",
-      "assessments": [
-        {
-          "id": "ef0729e0-f077-11ea-8774-a3eb2b104c2c",
-          "weight": "",
-          "chest": "",
-          "thigh": "",
-          "upperArm": "",
-          "waist": "",
-          "hips": ""
-        }
-      ]
+      "assessments": []
     }
   ]
 }
